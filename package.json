@@ -1,0 +1,24 @@
+{
+  "name": "netlify-functions",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rm -rf build && mkdir build && cp index.html ./build && cp -r functions ./build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/josephting/netlify-functions.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/josephting/netlify-functions/issues"
+  },
+  "homepage": "https://github.com/josephting/netlify-functions#readme",
+  "dependencies": {
+    "netlify-lambda": "^1.4.2"
+  }
+}
