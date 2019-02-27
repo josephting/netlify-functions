@@ -1,4 +1,4 @@
-const ttl = 60 * 60 * 1000 // 1 minute in miliseconds
+const ttl = 60 * 1000 // 1 minute in miliseconds
 
 let lastUpdate = 0
 let data = {}
